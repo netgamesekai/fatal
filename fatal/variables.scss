@@ -3,13 +3,13 @@ $black: #000000;
 $white: #ffffff;
 
 $classic-base-color: #37282a;
-$classic-primary-color: #c89bba;
+$classic-primary-color: #efbfe0;
 $classic-secondary-color: #e8d9e6;
-$classic-highlight-color: #ff63a1;
+$classic-highlight-color: #eb55bc;
 
-$blurple-600: #cc3a8a; // Iris
-$blurple-500: #ff63a9; // Brand purple
-$blurple-300: #f379aa; // Faded Blue
+$blurple-600: #de72c5; // Iris
+$blurple-500: #e488c9; // Brand purple
+$blurple-300: #edb9e4; // Faded Blue
 $grey-600: #4e4c5a; // Trout
 $grey-100: #dadaf3; // Topaz
 
@@ -54,7 +54,7 @@ $account-background-color: $white !default;
   @return hsl(hue($color), saturation($color), lightness($color) - $amount);
 }
 
-$emojis-requiring-inversion: 'chains';
+$emojis-requiring-inversion: "chains";
 
 body {
   --dropdown-border-color: #d9e1e8;
